@@ -219,8 +219,7 @@ class EnvironmentCPUvsGPU:
                 "env_obj": env_obj,
                 "env_name": self.cuda_env_class.name,
                 "env_config": env_config,
-                "num_envs": self.num_envs,
-                "blocks_per_env": self.blocks_per_env,
+                "num_envs": self.num_envs, 
                 "use_cuda": True,
                 "env_registrar": self.env_registrar,
             }
